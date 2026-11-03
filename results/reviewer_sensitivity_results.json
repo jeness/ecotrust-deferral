@@ -1,0 +1,393 @@
+{
+  "rows": [
+    {
+      "reviewer_acc": 0.7,
+      "unaware_escalation": 0.4404,
+      "unaware_accuracy": 0.8253,
+      "unaware_accuracy_sd": 0.0083,
+      "unaware_cost": 1.994,
+      "aware_escalation": 0.3675,
+      "aware_accuracy": 0.8416,
+      "aware_accuracy_sd": 0.0076,
+      "aware_cost": 1.563
+    },
+    {
+      "reviewer_acc": 0.8,
+      "unaware_escalation": 0.4404,
+      "unaware_accuracy": 0.8698,
+      "unaware_accuracy_sd": 0.0079,
+      "unaware_cost": 1.528,
+      "aware_escalation": 0.423,
+      "aware_accuracy": 0.8676,
+      "aware_accuracy_sd": 0.0072,
+      "aware_cost": 1.329
+    },
+    {
+      "reviewer_acc": 0.9,
+      "unaware_escalation": 0.4404,
+      "unaware_accuracy": 0.9134,
+      "unaware_accuracy_sd": 0.0059,
+      "unaware_cost": 1.047,
+      "aware_escalation": 0.423,
+      "aware_accuracy": 0.9094,
+      "aware_accuracy_sd": 0.0053,
+      "aware_cost": 0.955
+    },
+    {
+      "reviewer_acc": 0.95,
+      "unaware_escalation": 0.4404,
+      "unaware_accuracy": 0.9355,
+      "unaware_accuracy_sd": 0.0042,
+      "unaware_cost": 0.819,
+      "aware_escalation": 0.423,
+      "aware_accuracy": 0.9306,
+      "aware_accuracy_sd": 0.0044,
+      "aware_cost": 0.758
+    },
+    {
+      "reviewer_acc": 1.0,
+      "unaware_escalation": 0.4404,
+      "unaware_accuracy": 0.9578,
+      "unaware_accuracy_sd": 0.0,
+      "unaware_cost": 0.567,
+      "aware_escalation": 0.4404,
+      "aware_accuracy": 0.9578,
+      "aware_accuracy_sd": 0.0,
+      "aware_cost": 0.567
+    }
+  ],
+  "baseline_rows": [
+    {
+      "reviewer_acc": 0.7,
+      "method": "Chow",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.3096,
+      "accuracy": 0.8711,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0069,
+      "deployment_cost": 1.703,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.7,
+      "method": "Selective",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.2508,
+      "accuracy": 0.911,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.006,
+      "deployment_cost": 3.703,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.7,
+      "method": "L2D_raw",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4901,
+      "accuracy": 0.8237,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0089,
+      "deployment_cost": 3.162,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.7,
+      "method": "EcoTrust_DL",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4404,
+      "accuracy": 0.8253,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0083,
+      "deployment_cost": 1.994,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.7,
+      "method": "L2D_MS",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.2834,
+      "accuracy": 0.8921,
+      "accuracy_between_policy_sd": 0.0172,
+      "mean_monte_carlo_accuracy_sd": 0.0069,
+      "deployment_cost": 5.206,
+      "deployment_cost_between_policy_sd": 1.271
+    },
+    {
+      "reviewer_acc": 0.7,
+      "method": "L2D_OvA",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.6427,
+      "accuracy": 0.7899,
+      "accuracy_between_policy_sd": 0.0785,
+      "mean_monte_carlo_accuracy_sd": 0.0102,
+      "deployment_cost": 12.061,
+      "deployment_cost_between_policy_sd": 5.574
+    },
+    {
+      "reviewer_acc": 0.8,
+      "method": "Chow",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.3096,
+      "accuracy": 0.9029,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0062,
+      "deployment_cost": 1.27,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.8,
+      "method": "Selective",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.2508,
+      "accuracy": 0.9368,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0055,
+      "deployment_cost": 2.626,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.8,
+      "method": "L2D_raw",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4901,
+      "accuracy": 0.8732,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0081,
+      "deployment_cost": 2.302,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.8,
+      "method": "EcoTrust_DL",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4404,
+      "accuracy": 0.8698,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0079,
+      "deployment_cost": 1.528,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.8,
+      "method": "L2D_MS",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.2834,
+      "accuracy": 0.9206,
+      "accuracy_between_policy_sd": 0.0093,
+      "mean_monte_carlo_accuracy_sd": 0.0058,
+      "deployment_cost": 3.809,
+      "deployment_cost_between_policy_sd": 0.847
+    },
+    {
+      "reviewer_acc": 0.8,
+      "method": "L2D_OvA",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.6427,
+      "accuracy": 0.8544,
+      "accuracy_between_policy_sd": 0.0487,
+      "mean_monte_carlo_accuracy_sd": 0.0089,
+      "deployment_cost": 8.444,
+      "deployment_cost_between_policy_sd": 3.642
+    },
+    {
+      "reviewer_acc": 0.9,
+      "method": "Chow",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.3096,
+      "accuracy": 0.9334,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0048,
+      "deployment_cost": 0.842,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.9,
+      "method": "Selective",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.2508,
+      "accuracy": 0.9617,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0043,
+      "deployment_cost": 1.577,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.9,
+      "method": "L2D_raw",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4901,
+      "accuracy": 0.9218,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0057,
+      "deployment_cost": 1.447,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.9,
+      "method": "EcoTrust_DL",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4404,
+      "accuracy": 0.9134,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0059,
+      "deployment_cost": 1.047,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.9,
+      "method": "L2D_MS",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.2834,
+      "accuracy": 0.9486,
+      "accuracy_between_policy_sd": 0.002,
+      "mean_monte_carlo_accuracy_sd": 0.0047,
+      "deployment_cost": 2.44,
+      "deployment_cost_between_policy_sd": 0.449
+    },
+    {
+      "reviewer_acc": 0.9,
+      "method": "L2D_OvA",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.6427,
+      "accuracy": 0.9185,
+      "accuracy_between_policy_sd": 0.0185,
+      "mean_monte_carlo_accuracy_sd": 0.0067,
+      "deployment_cost": 4.889,
+      "deployment_cost_between_policy_sd": 1.699
+    },
+    {
+      "reviewer_acc": 0.95,
+      "method": "Chow",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.3096,
+      "accuracy": 0.949,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0036,
+      "deployment_cost": 0.628,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.95,
+      "method": "Selective",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.2508,
+      "accuracy": 0.9742,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0033,
+      "deployment_cost": 1.039,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.95,
+      "method": "L2D_raw",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4901,
+      "accuracy": 0.9463,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0045,
+      "deployment_cost": 1.0,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.95,
+      "method": "EcoTrust_DL",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4404,
+      "accuracy": 0.9355,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0042,
+      "deployment_cost": 0.819,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 0.95,
+      "method": "L2D_MS",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.2834,
+      "accuracy": 0.9629,
+      "accuracy_between_policy_sd": 0.0023,
+      "mean_monte_carlo_accuracy_sd": 0.0034,
+      "deployment_cost": 1.736,
+      "deployment_cost_between_policy_sd": 0.247
+    },
+    {
+      "reviewer_acc": 0.95,
+      "method": "L2D_OvA",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.6427,
+      "accuracy": 0.9509,
+      "accuracy_between_policy_sd": 0.0035,
+      "mean_monte_carlo_accuracy_sd": 0.0049,
+      "deployment_cost": 3.084,
+      "deployment_cost_between_policy_sd": 0.731
+    },
+    {
+      "reviewer_acc": 1.0,
+      "method": "Chow",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.3096,
+      "accuracy": 0.9644,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0,
+      "deployment_cost": 0.416,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 1.0,
+      "method": "Selective",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.2508,
+      "accuracy": 0.9868,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0,
+      "deployment_cost": 0.531,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 1.0,
+      "method": "L2D_raw",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4901,
+      "accuracy": 0.971,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0,
+      "deployment_cost": 0.577,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 1.0,
+      "method": "EcoTrust_DL",
+      "n_policy_seeds": 1,
+      "escalation_rate": 0.4404,
+      "accuracy": 0.9578,
+      "accuracy_between_policy_sd": 0.0,
+      "mean_monte_carlo_accuracy_sd": 0.0,
+      "deployment_cost": 0.567,
+      "deployment_cost_between_policy_sd": 0.0
+    },
+    {
+      "reviewer_acc": 1.0,
+      "method": "L2D_MS",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.2834,
+      "accuracy": 0.9771,
+      "accuracy_between_policy_sd": 0.0058,
+      "mean_monte_carlo_accuracy_sd": 0.0,
+      "deployment_cost": 1.048,
+      "deployment_cost_between_policy_sd": 0.055
+    },
+    {
+      "reviewer_acc": 1.0,
+      "method": "L2D_OvA",
+      "n_policy_seeds": 3,
+      "escalation_rate": 0.6427,
+      "accuracy": 0.9829,
+      "accuracy_between_policy_sd": 0.0116,
+      "mean_monte_carlo_accuracy_sd": 0.0,
+      "deployment_cost": 1.31,
+      "deployment_cost_between_policy_sd": 0.223
+    }
+  ],
+  "predicted_breakeven": 0.9305,
+  "raw_accuracy": 0.9272
+}

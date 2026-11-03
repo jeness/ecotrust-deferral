@@ -1,0 +1,31 @@
+{
+  "pipeline": "three_agent_proper",
+  "weather_agent": {
+    "acc": 0.9255,
+    "auc": 0.9718
+  },
+  "hydrology_agent": {
+    "acc": 0.7351,
+    "auc": 0.8523
+  },
+  "migration_ensemble": {
+    "acc": 0.7384,
+    "f1": 0.7683,
+    "auc": 0.8948,
+    "ece": 0.2206
+  },
+  "conflict_cases": 359,
+  "conflict_rate": 0.2972,
+  "ecotrust_gov": {
+    "acc": 0.9851,
+    "esc_rate": 0.7359,
+    "error_coverage": 0.943,
+    "error_reduction": 0.2467,
+    "reason_breakdown": {
+      "risk_score_high": 684,
+      "ensemble_disagreement_high": 362,
+      "entropy_high": 208,
+      "agent_conflict": 359
+    }
+  }
+}

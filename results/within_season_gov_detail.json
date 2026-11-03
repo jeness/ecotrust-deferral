@@ -1,0 +1,19 @@
+{
+  "total_decisions": 1208,
+  "n_escalated": 905,
+  "escalation_rate": 0.7492,
+  "n_model_errors": 82,
+  "errors_escalated": 76,
+  "error_coverage": 0.9268,
+  "accuracy_before": 0.9321,
+  "accuracy_after": 0.995,
+  "error_reduction": 0.0629,
+  "escalation_precision": 1.0,
+  "conflict_cases": 455,
+  "reason_breakdown": {
+    "risk_score_high": 665,
+    "agent_conflict": 455,
+    "entropy_high": 214,
+    "ensemble_disagreement_high": 84
+  }
+}

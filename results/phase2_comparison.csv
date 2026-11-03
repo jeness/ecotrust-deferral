@@ -1,0 +1,7 @@
+backend,setting,accuracy,f1_score,roc_auc,ece,brier_score,escalation_rate,error_coverage,error_reduction
+Random Forest,Without EcoTrust,0.975,0.9297,0.9917,0.0237,0.0201,—,—,—
+Random Forest,With EcoTrust,0.9841,0.9547,0.9917,0.0237,0.0201,0.1985,0.3626,0.0091
+XGBoost,Without EcoTrust,0.9753,0.9302,0.9946,0.0193,0.0193,—,—,—
+XGBoost,With EcoTrust,0.9816,0.9473,0.9946,0.0193,0.0193,0.1913,0.2556,0.0063
+EcoTrust Ensemble,Without EcoTrust,0.9805,0.944,0.9948,0.0178,0.0179,—,—,—
+EcoTrust Ensemble,With EcoTrust,0.9874,0.9644,0.9948,0.0178,0.0179,0.2062,0.3521,0.0069

@@ -1,0 +1,74 @@
+[
+  {
+    "backend": "Random Forest",
+    "setting": "Without EcoTrust",
+    "accuracy": 0.975,
+    "f1_score": 0.9297,
+    "roc_auc": 0.9917,
+    "ece": 0.0237,
+    "brier_score": 0.0201,
+    "escalation_rate": "\u2014",
+    "error_coverage": "\u2014",
+    "error_reduction": "\u2014"
+  },
+  {
+    "backend": "Random Forest",
+    "setting": "With EcoTrust",
+    "accuracy": 0.9841,
+    "f1_score": 0.9547,
+    "roc_auc": 0.9917,
+    "ece": 0.0237,
+    "brier_score": 0.0201,
+    "escalation_rate": 0.1985,
+    "error_coverage": 0.3626,
+    "error_reduction": 0.0091
+  },
+  {
+    "backend": "XGBoost",
+    "setting": "Without EcoTrust",
+    "accuracy": 0.9753,
+    "f1_score": 0.9302,
+    "roc_auc": 0.9946,
+    "ece": 0.0193,
+    "brier_score": 0.0193,
+    "escalation_rate": "\u2014",
+    "error_coverage": "\u2014",
+    "error_reduction": "\u2014"
+  },
+  {
+    "backend": "XGBoost",
+    "setting": "With EcoTrust",
+    "accuracy": 0.9816,
+    "f1_score": 0.9473,
+    "roc_auc": 0.9946,
+    "ece": 0.0193,
+    "brier_score": 0.0193,
+    "escalation_rate": 0.1913,
+    "error_coverage": 0.2556,
+    "error_reduction": 0.0063
+  },
+  {
+    "backend": "EcoTrust Ensemble",
+    "setting": "Without EcoTrust",
+    "accuracy": 0.9805,
+    "f1_score": 0.944,
+    "roc_auc": 0.9948,
+    "ece": 0.0178,
+    "brier_score": 0.0179,
+    "escalation_rate": "\u2014",
+    "error_coverage": "\u2014",
+    "error_reduction": "\u2014"
+  },
+  {
+    "backend": "EcoTrust Ensemble",
+    "setting": "With EcoTrust",
+    "accuracy": 0.9874,
+    "f1_score": 0.9644,
+    "roc_auc": 0.9948,
+    "ece": 0.0178,
+    "brier_score": 0.0179,
+    "escalation_rate": 0.2062,
+    "error_coverage": 0.3521,
+    "error_reduction": 0.0069
+  }
+]

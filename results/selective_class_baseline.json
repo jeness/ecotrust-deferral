@@ -1,0 +1,27 @@
+{
+  "description": "Selective classification baseline vs EcoTrust post-hoc decision learning",
+  "note": "SelectiveClass escalates when max(p,1-p) < threshold (low-confidence deferral)",
+  "results": [
+    {
+      "method": "SelectiveClass (esc\u224820%)",
+      "threshold": 0.8852,
+      "escalation_rate": 0.197,
+      "error_coverage": 0.7374,
+      "accuracy_oracle": 0.9785
+    },
+    {
+      "method": "SelectiveClass (esc\u224862%)",
+      "threshold": 0.9927,
+      "escalation_rate": 0.6051,
+      "error_coverage": 1.0,
+      "accuracy_oracle": 1.0
+    },
+    {
+      "method": "SelectiveClass (esc\u224872%)",
+      "threshold": 0.9947,
+      "escalation_rate": 0.668,
+      "error_coverage": 1.0,
+      "accuracy_oracle": 1.0
+    }
+  ]
+}

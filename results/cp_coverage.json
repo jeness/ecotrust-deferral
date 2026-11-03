@@ -1,0 +1,8 @@
+{
+  "alpha": 0.1,
+  "nominal_coverage": 0.9,
+  "empirical_coverage": 0.9421,
+  "q_hat": 0.5339,
+  "class_1_coverage": 0.9731,
+  "class_0_coverage": 0.9035
+}

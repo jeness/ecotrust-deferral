@@ -1,0 +1,111 @@
+\documentclass[tikz,border=2pt]{standalone}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{arrows.meta}
+\pgfplotsset{compat=1.18}
+\definecolor{cbBlue}{HTML}{0072B2}
+\definecolor{cbOrange}{HTML}{D55E00}
+\definecolor{cbGreen}{HTML}{009E73}
+\definecolor{cbPurple}{HTML}{CC79A7}
+\definecolor{cbSky}{HTML}{56B4E9}
+\definecolor{cbGold}{HTML}{E69F00}
+\pgfplotsset{
+  paperaxis/.style={
+    axis line style={black!65,line width=0.45pt},
+    tick style={black!65,line width=0.45pt},
+    tick label style={font=\footnotesize},
+    label style={font=\small},
+    title style={font=\small\bfseries,yshift=-1pt},
+    grid=major,
+    grid style={black!10,line width=0.35pt},
+    line width=1.05pt,
+    mark size=1.8pt,
+  }
+}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{groupplot}[
+  group style={group size=2 by 2,horizontal sep=1.25cm,vertical sep=2.25cm},
+  paperaxis,width=8.55cm,height=4.7cm,
+]
+\nextgroupplot[
+  title={(a) Miss-cost sensitivity},
+  xmode=log,ymode=log,log ticks with fixed point,
+  xmin=0.85,xmax=590,ymin=0.12,ymax=16,
+  xlabel={False-negative cost $c_{FN}$ (log scale)},
+  ylabel={Deployment cost/day (log scale)},
+  xtick={1,5,10,50,100,500},
+  legend style={font=\footnotesize,draw=none,fill=none,at={(0.02,0.98)},anchor=north west,row sep=-1pt},
+]
+\path[fill=black!5] (axis cs:5,0.12) rectangle (axis cs:10,16);
+\addplot[cbBlue,solid,mark=*] coordinates {(1,0.169) (2,0.194) (5,0.275) (10,0.317) (20,0.359) (50,0.535) (100,0.567) (200,0.567) (500,0.567)};
+\addlegendentry{EcoTrust}
+\addplot[black!60,dashed,mark=square*] coordinates {(1,0.169) (2,0.194) (5,0.268) (10,0.392) (20,0.641) (50,1.386) (100,2.627) (200,5.111) (500,12.561)};
+\addlegendentry{Automatic}
+\addplot[cbOrange,dashdotted,mark=triangle*] coordinates {(1,0.155) (2,0.18) (5,0.266) (10,0.288) (20,0.331) (50,0.346) (100,0.416) (200,0.525) (500,0.553)};
+\addlegendentry{Chow}
+
+\nextgroupplot[
+  title={(b) Fixed review rate (exactly $k$)},
+  xmin=3,xmax=52,ymin=0.25,ymax=2.82,
+  xlabel={Review rate (\%)},ylabel={Deployment cost/day},
+  xtick={5,10,20,30,40,50},
+  legend style={font=\footnotesize,draw=none,fill=white,fill opacity=.86,text opacity=1,at={(0.98,0.98)},anchor=north east,row sep=-1pt},
+]
+\addplot[cbBlue,solid,mark=*] coordinates {(5,1.849) (10,0.824) (15,0.625) (20,0.344) (30,0.444) (40,0.544) (50,0.547)};
+\addlegendentry{EcoTrust}
+\addplot[cbOrange,dashed,mark=square*] coordinates {(5,1.849) (10,0.906) (15,0.542) (20,0.344) (30,0.414) (40,0.469) (50,0.552)};
+\addlegendentry{Chow}
+\addplot[cbGreen,dashdotted,mark=triangle*] coordinates {(5,1.353) (10,0.658) (15,0.708) (20,0.51) (30,0.444) (40,0.522) (50,0.587)};
+\addlegendentry{Raw L2D}
+\addplot[cbPurple,dotted,mark=diamond*] coordinates {(5,2.231) (10,1.755) (15,1.045) (20,0.656) (30,0.412) (40,0.415) (50,0.51)};
+\addlegendentry{Selective}
+\addplot[black!55,densely dashed,mark=pentagon*] coordinates {(5,2.058) (10,1.68) (15,1.376) (20,1.08) (30,0.826) (40,0.919) (50,1.019)};
+\addlegendentry{Hand score}
+
+\nextgroupplot[
+  title={(c) Cost under reviewer noise},
+  xmin=68,xmax=102,ymin=0.48,ymax=3.3,
+  xlabel={Reviewer accuracy $a$ (\%)},ylabel={Deployment cost/day},
+  xtick={70,80,90,100},
+  legend style={font=\footnotesize,draw=none,fill=none,at={(0.98,0.98)},anchor=north east,row sep=-1pt},
+]
+\addplot[cbOrange,dashed,mark=square*] coordinates {(70,1.994) (80,1.528) (90,1.047) (95,0.819) (100,0.567)};
+\addlegendentry{Oracle-unaware}
+\addplot[cbBlue,solid,mark=*] coordinates {(70,1.563) (80,1.329) (90,0.955) (95,0.758) (100,0.567)};
+\addlegendentry{Reviewer-aware}
+\addplot[black!55,densely dotted] coordinates {(70,2.627) (100,2.627)};
+\addlegendentry{Automatic}
+
+\nextgroupplot[
+  title={(d) Accuracy and predicted breakeven},
+  xmin=68,xmax=102,ymin=0.80,ymax=0.98,
+  xlabel={Reviewer accuracy $a$ (\%)},ylabel={System accuracy},
+  xtick={70,80,90,100},ytick={0.80,0.85,0.90,0.95},
+]
+\addplot[cbOrange,dashed,mark=square*,error bars/.cd,y dir=both,y explicit]
+table[row sep=\\,x=a,y=acc,y error=err]{
+a acc err\\
+70.0 0.8253 0.0083\\
+80.0 0.8698 0.0079\\
+90.0 0.9134 0.0059\\
+95.0 0.9355 0.0042\\
+100.0 0.9578 0.0\\
+};
+\addplot[cbBlue,solid,mark=*,error bars/.cd,y dir=both,y explicit]
+table[row sep=\\,x=a,y=acc,y error=err]{
+a acc err\\
+70.0 0.8416 0.0076\\
+80.0 0.8676 0.0072\\
+90.0 0.9094 0.0053\\
+95.0 0.9306 0.0044\\
+100.0 0.9578 0.0\\
+};
+\addplot[black!55,densely dotted] coordinates {(70,0.9272) (100,0.9272)};
+\draw[black!60,dashdotted] (axis cs:93.05,0.80) -- (axis cs:93.05,0.98);
+\node[font=\footnotesize,anchor=north east,fill=white,inner sep=1pt] at (axis cs:93.05,0.978) {$a^*=93.05\%$};
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

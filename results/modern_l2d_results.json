@@ -1,0 +1,340 @@
+{
+  "protocol": "published surrogate losses; frozen backend class logits; 90% synthetic expert demonstrations; MS alpha and all thresholds cost-tuned on calibration",
+  "seeds": [
+    40,
+    41,
+    42
+  ],
+  "in_distribution": [
+    {
+      "method": "B6 L2D-MS (post-hoc, signals)",
+      "n_seeds": 3,
+      "escalation_rate": 0.2834,
+      "escalation_rate_sd": 0.0745,
+      "error_coverage": 0.6856,
+      "error_coverage_sd": 0.08,
+      "accuracy_raw": 0.9272,
+      "accuracy_raw_sd": 0.0,
+      "accuracy_final": 0.9771,
+      "accuracy_final_sd": 0.0058,
+      "deployment_cost": 1.048,
+      "deployment_cost_sd": 0.055,
+      "deployment_cost_auto": 2.627,
+      "deployment_cost_auto_sd": 0.0,
+      "accuracy_at_90": 0.9487,
+      "accuracy_at_90_sd": 0.0021,
+      "deployment_cost_at_90": 2.425,
+      "deployment_cost_at_90_sd": 0.459,
+      "breakeven_reviewer_acc": 0.8147,
+      "protocol": "Mozannar-Sontag Eq.6; frozen class logits; 90% expert demos",
+      "fit_diagnostics": [
+        {
+          "method": "ms",
+          "n_train": 707,
+          "expert_accuracy_train": 0.9024,
+          "loss_initial": 1.55629,
+          "loss_final": 1.5419,
+          "threshold": -0.021722818613052367,
+          "calibration_cost_total": 267.0,
+          "calibration_escalations": 137,
+          "selected_alpha": 1.0,
+          "alpha_grid": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        },
+        {
+          "method": "ms",
+          "n_train": 707,
+          "expert_accuracy_train": 0.8967,
+          "loss_initial": 1.57365,
+          "loss_final": 1.53987,
+          "threshold": 0.005827638506889339,
+          "calibration_cost_total": 225.0,
+          "calibration_escalations": 74,
+          "selected_alpha": 1.0,
+          "alpha_grid": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        },
+        {
+          "method": "ms",
+          "n_train": 707,
+          "expert_accuracy_train": 0.9052,
+          "loss_initial": 1.57427,
+          "loss_final": 1.54514,
+          "threshold": -0.01999347329139709,
+          "calibration_cost_total": 276.0,
+          "calibration_escalations": 164,
+          "selected_alpha": 1.0,
+          "alpha_grid": [
+            0.0,
+            0.5,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "method": "B7 L2D-OvA (post-hoc, signals)",
+      "n_seeds": 3,
+      "escalation_rate": 0.6427,
+      "escalation_rate_sd": 0.301,
+      "error_coverage": 0.7652,
+      "error_coverage_sd": 0.1592,
+      "accuracy_raw": 0.9272,
+      "accuracy_raw_sd": 0.0,
+      "accuracy_final": 0.9829,
+      "accuracy_final_sd": 0.0116,
+      "deployment_cost": 1.31,
+      "deployment_cost_sd": 0.223,
+      "deployment_cost_auto": 2.627,
+      "deployment_cost_auto_sd": 0.0,
+      "accuracy_at_90": 0.9183,
+      "accuracy_at_90_sd": 0.0188,
+      "deployment_cost_at_90": 4.903,
+      "deployment_cost_at_90_sd": 1.726,
+      "breakeven_reviewer_acc": 0.8938,
+      "protocol": "Verma-Nalisnick Eq.8; frozen class logits; 90% expert demos",
+      "fit_diagnostics": [
+        {
+          "method": "ova",
+          "n_train": 707,
+          "expert_accuracy_train": 0.9024,
+          "loss_initial": 1.64264,
+          "loss_final": 1.19884,
+          "threshold": 0.41298691526055337,
+          "calibration_cost_total": 439.0,
+          "calibration_escalations": 324,
+          "selected_alpha": 1.0,
+          "alpha_grid": [
+            1.0
+          ]
+        },
+        {
+          "method": "ova",
+          "n_train": 707,
+          "expert_accuracy_train": 0.8967,
+          "loss_initial": 1.5715,
+          "loss_final": 1.2056,
+          "threshold": 0.07003555297851562,
+          "calibration_cost_total": 464.0,
+          "calibration_escalations": 458,
+          "selected_alpha": 1.0,
+          "alpha_grid": [
+            1.0
+          ]
+        },
+        {
+          "method": "ova",
+          "n_train": 707,
+          "expert_accuracy_train": 0.9052,
+          "loss_initial": 1.65476,
+          "loss_final": 1.19455,
+          "threshold": 0.4640112087130547,
+          "calibration_cost_total": 446.0,
+          "calibration_escalations": 110,
+          "selected_alpha": 1.0,
+          "alpha_grid": [
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "cross_watershed": [
+    {
+      "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+      "l2d_ms": {
+        "escalation_rate": 0.7396,
+        "escalation_rate_sd": 0.1716,
+        "error_coverage": 0.7798,
+        "error_coverage_sd": 0.1954,
+        "deployment_cost": 1.101,
+        "deployment_cost_sd": 0.163
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.7272,
+        "escalation_rate_sd": 0.316,
+        "error_coverage": 0.7617,
+        "error_coverage_sd": 0.3296,
+        "deployment_cost": 1.119,
+        "deployment_cost_sd": 0.231
+      }
+    },
+    {
+      "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+      "l2d_ms": {
+        "escalation_rate": 0.7596,
+        "escalation_rate_sd": 0.1623,
+        "error_coverage": 0.8011,
+        "error_coverage_sd": 0.1874,
+        "deployment_cost": 1.245,
+        "deployment_cost_sd": 0.314
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.7118,
+        "escalation_rate_sd": 0.3455,
+        "error_coverage": 0.7378,
+        "error_coverage_sd": 0.3602,
+        "deployment_cost": 1.353,
+        "deployment_cost_sd": 0.538
+      }
+    },
+    {
+      "site": "SALMON RIVER AT WHITE BIRD ID",
+      "l2d_ms": {
+        "escalation_rate": 0.7338,
+        "escalation_rate_sd": 0.1727,
+        "error_coverage": 0.7251,
+        "error_coverage_sd": 0.2394,
+        "deployment_cost": 1.123,
+        "deployment_cost_sd": 0.196
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.7155,
+        "escalation_rate_sd": 0.3267,
+        "error_coverage": 0.7871,
+        "error_coverage_sd": 0.2883,
+        "deployment_cost": 1.016,
+        "deployment_cost_sd": 0.096
+      }
+    },
+    {
+      "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+      "l2d_ms": {
+        "escalation_rate": 0.8069,
+        "escalation_rate_sd": 0.1429,
+        "error_coverage": 0.7369,
+        "error_coverage_sd": 0.2206,
+        "deployment_cost": 1.299,
+        "deployment_cost_sd": 0.271
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.714,
+        "escalation_rate_sd": 0.3815,
+        "error_coverage": 0.7544,
+        "error_coverage_sd": 0.3473,
+        "deployment_cost": 1.173,
+        "deployment_cost_sd": 0.268
+      }
+    },
+    {
+      "site": "MCKENZIE RIVER NEAR VIDA, OR",
+      "l2d_ms": {
+        "escalation_rate": 0.7309,
+        "escalation_rate_sd": 0.1687,
+        "error_coverage": 0.7572,
+        "error_coverage_sd": 0.2004,
+        "deployment_cost": 1.334,
+        "deployment_cost_sd": 0.341
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.7282,
+        "escalation_rate_sd": 0.3319,
+        "error_coverage": 0.7479,
+        "error_coverage_sd": 0.3467,
+        "deployment_cost": 1.354,
+        "deployment_cost_sd": 0.531
+      }
+    },
+    {
+      "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+      "l2d_ms": {
+        "escalation_rate": 0.7809,
+        "escalation_rate_sd": 0.1474,
+        "error_coverage": 0.8498,
+        "error_coverage_sd": 0.1469,
+        "deployment_cost": 1.131,
+        "deployment_cost_sd": 0.228
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.6981,
+        "escalation_rate_sd": 0.3412,
+        "error_coverage": 0.7307,
+        "error_coverage_sd": 0.3735,
+        "deployment_cost": 1.326,
+        "deployment_cost_sd": 0.535
+      }
+    },
+    {
+      "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+      "l2d_ms": {
+        "escalation_rate": 0.6821,
+        "escalation_rate_sd": 0.1812,
+        "error_coverage": 0.7283,
+        "error_coverage_sd": 0.222,
+        "deployment_cost": 1.259,
+        "deployment_cost_sd": 0.328
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.7309,
+        "escalation_rate_sd": 0.2904,
+        "error_coverage": 0.7751,
+        "error_coverage_sd": 0.3124,
+        "deployment_cost": 1.208,
+        "deployment_cost_sd": 0.381
+      }
+    },
+    {
+      "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+      "l2d_ms": {
+        "escalation_rate": 0.7266,
+        "escalation_rate_sd": 0.2126,
+        "error_coverage": 0.773,
+        "error_coverage_sd": 0.2583,
+        "deployment_cost": 1.219,
+        "deployment_cost_sd": 0.374
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.743,
+        "escalation_rate_sd": 0.2839,
+        "error_coverage": 0.7948,
+        "error_coverage_sd": 0.2835,
+        "deployment_cost": 1.188,
+        "deployment_cost_sd": 0.339
+      }
+    },
+    {
+      "site": "CLEARWATER RIVER AT OROFINO ID",
+      "l2d_ms": {
+        "escalation_rate": 0.6922,
+        "escalation_rate_sd": 0.1797,
+        "error_coverage": 0.7006,
+        "error_coverage_sd": 0.2498,
+        "deployment_cost": 1.041,
+        "deployment_cost_sd": 0.166
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.6837,
+        "escalation_rate_sd": 0.3213,
+        "error_coverage": 0.7698,
+        "error_coverage_sd": 0.3136,
+        "deployment_cost": 0.952,
+        "deployment_cost_sd": 0.095
+      }
+    },
+    {
+      "site": "SNAKE RIVER AT WEISER ID",
+      "l2d_ms": {
+        "escalation_rate": 0.7,
+        "escalation_rate_sd": 0.1037,
+        "error_coverage": 0.7234,
+        "error_coverage_sd": 0.2085,
+        "deployment_cost": 0.979,
+        "deployment_cost_sd": 0.152
+      },
+      "l2d_ova": {
+        "escalation_rate": 0.7,
+        "escalation_rate_sd": 0.2904,
+        "error_coverage": 0.8511,
+        "error_coverage_sd": 0.2106,
+        "deployment_cost": 0.85,
+        "deployment_cost_sd": 0.107
+      }
+    }
+  ]
+}

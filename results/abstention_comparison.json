@@ -1,0 +1,32 @@
+[
+  {
+    "method": "Risk-score only (p>0.60)",
+    "esc_rate": 0.5505,
+    "err_cov": 0.4512,
+    "acc_after": 0.9627
+  },
+  {
+    "method": "Entropy only (H>0.40)",
+    "esc_rate": 0.1772,
+    "err_cov": 0.6707,
+    "acc_after": 0.9776
+  },
+  {
+    "method": "EnsStd only (sigma>0.08)",
+    "esc_rate": 0.0695,
+    "err_cov": 0.2439,
+    "acc_after": 0.9487
+  },
+  {
+    "method": "Conflict only",
+    "esc_rate": 0.3767,
+    "err_cov": 0.3293,
+    "acc_after": 0.9545
+  },
+  {
+    "method": "EcoTrust multi-signal",
+    "esc_rate": 0.7492,
+    "err_cov": 0.9268,
+    "acc_after": 0.995
+  }
+]

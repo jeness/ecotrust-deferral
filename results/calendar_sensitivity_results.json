@@ -1,0 +1,47 @@
+{
+  "cost_ratio": "100:3:1",
+  "reviewer": "perfect(a=1)",
+  "rows": [
+    {
+      "predictor": "Calendar",
+      "accuracy": 0.947,
+      "f1": 0.9502,
+      "auc": 0.9818,
+      "ece": 0.038,
+      "brier": 0.0413,
+      "auto_cost": 4.8965,
+      "chow_cost": 1.0,
+      "ecotrust_cost": 0.5157,
+      "winner": "EcoTrust",
+      "chow_beats_ecotrust": false
+    },
+    {
+      "predictor": "Environmental",
+      "accuracy": 0.9321,
+      "f1": 0.9399,
+      "auc": 0.9805,
+      "ece": 0.0297,
+      "brier": 0.0547,
+      "auto_cost": 2.452,
+      "chow_cost": 0.3311,
+      "ecotrust_cost": 0.332,
+      "winner": "Chow",
+      "chow_beats_ecotrust": true
+    },
+    {
+      "predictor": "Env+Calendar",
+      "accuracy": 0.9661,
+      "f1": 0.9685,
+      "auc": 0.9952,
+      "ece": 0.0276,
+      "brier": 0.029,
+      "auto_cost": 3.1531,
+      "chow_cost": 0.9354,
+      "ecotrust_cost": 0.9371,
+      "winner": "Chow",
+      "chow_beats_ecotrust": true
+    }
+  ],
+  "all_chow_win": false,
+  "verdict": "SENSITIVE: the winning policy changes across predictors; the negative finding may depend on which predictor is frozen."
+}

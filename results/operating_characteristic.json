@@ -1,0 +1,62 @@
+[
+  {
+    "budget_pct": 5,
+    "ecotrust_err_cov": 0.2323,
+    "entropy_err_cov": 0.2929,
+    "riskdist_err_cov": 0.2929
+  },
+  {
+    "budget_pct": 10,
+    "ecotrust_err_cov": 0.4545,
+    "entropy_err_cov": 0.4343,
+    "riskdist_err_cov": 0.4343
+  },
+  {
+    "budget_pct": 15,
+    "ecotrust_err_cov": 0.596,
+    "entropy_err_cov": 0.6263,
+    "riskdist_err_cov": 0.6263
+  },
+  {
+    "budget_pct": 20,
+    "ecotrust_err_cov": 0.7374,
+    "entropy_err_cov": 0.7374,
+    "riskdist_err_cov": 0.7374
+  },
+  {
+    "budget_pct": 25,
+    "ecotrust_err_cov": 0.7677,
+    "entropy_err_cov": 0.8283,
+    "riskdist_err_cov": 0.8283
+  },
+  {
+    "budget_pct": 30,
+    "ecotrust_err_cov": 0.7778,
+    "entropy_err_cov": 0.8889,
+    "riskdist_err_cov": 0.8889
+  },
+  {
+    "budget_pct": 40,
+    "ecotrust_err_cov": 0.798,
+    "entropy_err_cov": 0.9798,
+    "riskdist_err_cov": 0.9798
+  },
+  {
+    "budget_pct": 50,
+    "ecotrust_err_cov": 0.8384,
+    "entropy_err_cov": 1.0,
+    "riskdist_err_cov": 1.0
+  },
+  {
+    "budget_pct": 60,
+    "ecotrust_err_cov": 0.9697,
+    "entropy_err_cov": 1.0,
+    "riskdist_err_cov": 1.0
+  },
+  {
+    "budget_pct": 70,
+    "ecotrust_err_cov": 0.9798,
+    "entropy_err_cov": 1.0,
+    "riskdist_err_cov": 1.0
+  }
+]

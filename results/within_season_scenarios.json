@@ -1,0 +1,35 @@
+[
+  {
+    "scenario": "S1_normal",
+    "accuracy": 0.918,
+    "f1": 0.9248,
+    "auc": 0.9779,
+    "ece": 0.0218,
+    "esc_rate": 0.7227,
+    "err_cov": 0.8586,
+    "err_red": 0.0704,
+    "acc_after": 0.9884
+  },
+  {
+    "scenario": "S2_sensor_failure",
+    "accuracy": 0.9172,
+    "f1": 0.9245,
+    "auc": 0.9788,
+    "ece": 0.0204,
+    "esc_rate": 0.7202,
+    "err_cov": 0.86,
+    "err_red": 0.0712,
+    "acc_after": 0.9884
+  },
+  {
+    "scenario": "S3_noisy",
+    "accuracy": 0.9139,
+    "f1": 0.921,
+    "auc": 0.976,
+    "ece": 0.0161,
+    "esc_rate": 0.726,
+    "err_cov": 0.8462,
+    "err_red": 0.0728,
+    "acc_after": 0.9868
+  }
+]

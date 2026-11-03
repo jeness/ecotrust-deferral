@@ -1,0 +1,3156 @@
+{
+  "protocol": "ten zero-shot USGS stations; exact review budgets; reviewer errors are class-independent Monte Carlo flips; EcoTrust and Chow rank by reviewer-aware expected saving; L2D ranks by mean defer score over three seeds",
+  "aggregation": "unweighted mean and standard deviation across stations",
+  "rows": [
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.1,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.1,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 2.008,
+      "site_cost_sd": 0.509,
+      "mean_site_accuracy": 0.3639,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.803,
+          "accuracy": 0.4324,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.604,
+          "accuracy": 0.1653,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.575,
+          "accuracy": 0.5084,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.862,
+          "accuracy": 0.4122,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.643,
+          "accuracy": 0.1524,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.491,
+          "accuracy": 0.203,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.281,
+          "accuracy": 0.2731,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.331,
+          "accuracy": 0.2565,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.326,
+          "accuracy": 0.5916,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.167,
+          "accuracy": 0.6444,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.1,
+      "method": "Chow",
+      "mean_site_cost": 2.008,
+      "site_cost_sd": 0.509,
+      "mean_site_accuracy": 0.3638,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.802,
+          "accuracy": 0.4326,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.605,
+          "accuracy": 0.1649,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.576,
+          "accuracy": 0.5081,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.864,
+          "accuracy": 0.4116,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.643,
+          "accuracy": 0.1525,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.491,
+          "accuracy": 0.2031,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.281,
+          "accuracy": 0.2729,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.33,
+          "accuracy": 0.2566,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.326,
+          "accuracy": 0.5914,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.166,
+          "accuracy": 0.6447,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.1,
+      "method": "L2D_MS",
+      "mean_site_cost": 1.95,
+      "site_cost_sd": 0.46,
+      "mean_site_accuracy": 0.4168,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.605,
+          "accuracy": 0.4984,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.415,
+          "accuracy": 0.2283,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.379,
+          "accuracy": 0.5736,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 2.302,
+          "accuracy": 0.4237,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.456,
+          "accuracy": 0.2148,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.328,
+          "accuracy": 0.2573,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.156,
+          "accuracy": 0.3146,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.182,
+          "accuracy": 0.306,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.131,
+          "accuracy": 0.6565,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.549,
+          "accuracy": 0.6948,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.1,
+      "method": "L2D_OvA",
+      "mean_site_cost": 1.889,
+      "site_cost_sd": 0.441,
+      "mean_site_accuracy": 0.4273,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.867,
+          "accuracy": 0.5013,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.405,
+          "accuracy": 0.2315,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.503,
+          "accuracy": 0.5786,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.744,
+          "accuracy": 0.4515,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.424,
+          "accuracy": 0.2253,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.304,
+          "accuracy": 0.2654,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.147,
+          "accuracy": 0.3178,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.087,
+          "accuracy": 0.3378,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.272,
+          "accuracy": 0.654,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.139,
+          "accuracy": 0.7093,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.3,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.3,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 2.085,
+      "site_cost_sd": 0.505,
+      "mean_site_accuracy": 0.4081,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.791,
+          "accuracy": 0.5029,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.579,
+          "accuracy": 0.2402,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.573,
+          "accuracy": 0.5754,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.691,
+          "accuracy": 0.5674,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.578,
+          "accuracy": 0.2406,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.582,
+          "accuracy": 0.2393,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.578,
+          "accuracy": 0.2409,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.58,
+          "accuracy": 0.24,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.535,
+          "accuracy": 0.5881,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.362,
+          "accuracy": 0.6459,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.3,
+      "method": "Chow",
+      "mean_site_cost": 2.085,
+      "site_cost_sd": 0.505,
+      "mean_site_accuracy": 0.4085,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.79,
+          "accuracy": 0.5034,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.582,
+          "accuracy": 0.2393,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.574,
+          "accuracy": 0.5753,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.695,
+          "accuracy": 0.5688,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.577,
+          "accuracy": 0.241,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.578,
+          "accuracy": 0.2407,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.579,
+          "accuracy": 0.2405,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.579,
+          "accuracy": 0.2406,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.537,
+          "accuracy": 0.5876,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.357,
+          "accuracy": 0.6478,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.3,
+      "method": "L2D_MS",
+      "mean_site_cost": 2.735,
+      "site_cost_sd": 0.94,
+      "mean_site_accuracy": 0.4811,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 2.105,
+          "accuracy": 0.5638,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.334,
+          "accuracy": 0.322,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 2.339,
+          "accuracy": 0.6234,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 5.194,
+          "accuracy": 0.4421,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.383,
+          "accuracy": 0.3057,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.198,
+          "accuracy": 0.3673,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.108,
+          "accuracy": 0.3975,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.191,
+          "accuracy": 0.3699,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 2.778,
+          "accuracy": 0.6932,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 3.716,
+          "accuracy": 0.7262,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.3,
+      "method": "L2D_OvA",
+      "mean_site_cost": 2.245,
+      "site_cost_sd": 0.451,
+      "mean_site_accuracy": 0.5353,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 3.357,
+          "accuracy": 0.5514,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.203,
+          "accuracy": 0.3656,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.805,
+          "accuracy": 0.6814,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.818,
+          "accuracy": 0.5967,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.21,
+          "accuracy": 0.3633,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.107,
+          "accuracy": 0.3976,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.029,
+          "accuracy": 0.4239,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.887,
+          "accuracy": 0.4712,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 2.315,
+          "accuracy": 0.7179,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 2.718,
+          "accuracy": 0.7842,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.5,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.5,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 2.383,
+      "site_cost_sd": 0.749,
+      "mean_site_accuracy": 0.5423,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 2.475,
+          "accuracy": 0.6212,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.299,
+          "accuracy": 0.4004,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.597,
+          "accuracy": 0.7225,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 4.403,
+          "accuracy": 0.5983,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.299,
+          "accuracy": 0.4005,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.304,
+          "accuracy": 0.3986,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.299,
+          "accuracy": 0.4004,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.298,
+          "accuracy": 0.4007,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.454,
+          "accuracy": 0.7397,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 2.406,
+          "accuracy": 0.7412,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.5,
+      "method": "Chow",
+      "mean_site_cost": 2.387,
+      "site_cost_sd": 0.735,
+      "mean_site_accuracy": 0.5424,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 2.475,
+          "accuracy": 0.6205,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.304,
+          "accuracy": 0.3987,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.617,
+          "accuracy": 0.7213,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 4.351,
+          "accuracy": 0.5997,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.297,
+          "accuracy": 0.4012,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.297,
+          "accuracy": 0.4009,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.3,
+          "accuracy": 0.3999,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.298,
+          "accuracy": 0.4009,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.441,
+          "accuracy": 0.7396,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 2.492,
+          "accuracy": 0.7414,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.5,
+      "method": "L2D_MS",
+      "mean_site_cost": 3.694,
+      "site_cost_sd": 1.932,
+      "mean_site_accuracy": 0.576,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 3.4,
+          "accuracy": 0.6501,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.081,
+          "accuracy": 0.4728,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 4.551,
+          "accuracy": 0.6673,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 6.953,
+          "accuracy": 0.5115,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.127,
+          "accuracy": 0.4579,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 1.956,
+          "accuracy": 0.5146,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.905,
+          "accuracy": 0.5314,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.968,
+          "accuracy": 0.5108,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 5.283,
+          "accuracy": 0.7222,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 6.712,
+          "accuracy": 0.7215,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.8,
+      "budget": 0.5,
+      "method": "L2D_OvA",
+      "mean_site_cost": 3.241,
+      "site_cost_sd": 1.5,
+      "mean_site_accuracy": 0.6309,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 5.069,
+          "accuracy": 0.6193,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 1.936,
+          "accuracy": 0.5212,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 4.174,
+          "accuracy": 0.7196,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 3.412,
+          "accuracy": 0.668,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 1.963,
+          "accuracy": 0.5125,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 1.837,
+          "accuracy": 0.5542,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.788,
+          "accuracy": 0.5705,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.666,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 5.255,
+          "accuracy": 0.731,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 5.315,
+          "accuracy": 0.8014,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.1,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.1,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 1.978,
+      "site_cost_sd": 0.51,
+      "mean_site_accuracy": 0.374,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.773,
+          "accuracy": 0.4423,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.574,
+          "accuracy": 0.1754,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.544,
+          "accuracy": 0.5186,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.831,
+          "accuracy": 0.4224,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.613,
+          "accuracy": 0.1624,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.461,
+          "accuracy": 0.2129,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.251,
+          "accuracy": 0.283,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.3,
+          "accuracy": 0.2667,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.296,
+          "accuracy": 0.6015,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.136,
+          "accuracy": 0.6545,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.1,
+      "method": "Chow",
+      "mean_site_cost": 1.978,
+      "site_cost_sd": 0.509,
+      "mean_site_accuracy": 0.3738,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.773,
+          "accuracy": 0.4425,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.574,
+          "accuracy": 0.1752,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.545,
+          "accuracy": 0.5182,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.834,
+          "accuracy": 0.4216,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.613,
+          "accuracy": 0.1623,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.462,
+          "accuracy": 0.2128,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.251,
+          "accuracy": 0.283,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.3,
+          "accuracy": 0.2667,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.296,
+          "accuracy": 0.6014,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.136,
+          "accuracy": 0.6546,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.1,
+      "method": "L2D_MS",
+      "mean_site_cost": 1.869,
+      "site_cost_sd": 0.476,
+      "mean_site_accuracy": 0.4267,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.575,
+          "accuracy": 0.5084,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.385,
+          "accuracy": 0.2384,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.349,
+          "accuracy": 0.5836,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 2.025,
+          "accuracy": 0.433,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.426,
+          "accuracy": 0.2248,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.299,
+          "accuracy": 0.2671,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.125,
+          "accuracy": 0.3251,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.153,
+          "accuracy": 0.3156,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.101,
+          "accuracy": 0.6666,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.25,
+          "accuracy": 0.7045,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.1,
+      "method": "L2D_OvA",
+      "mean_site_cost": 1.823,
+      "site_cost_sd": 0.474,
+      "mean_site_accuracy": 0.4372,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.699,
+          "accuracy": 0.5113,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.375,
+          "accuracy": 0.2417,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.409,
+          "accuracy": 0.5888,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.716,
+          "accuracy": 0.4607,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.394,
+          "accuracy": 0.2353,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.274,
+          "accuracy": 0.2754,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.118,
+          "accuracy": 0.3275,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.057,
+          "accuracy": 0.3478,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.175,
+          "accuracy": 0.6639,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.014,
+          "accuracy": 0.7195,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.3,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.3,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 1.99,
+      "site_cost_sd": 0.509,
+      "mean_site_accuracy": 0.4382,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.701,
+          "accuracy": 0.5329,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.49,
+          "accuracy": 0.2699,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.484,
+          "accuracy": 0.6053,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.552,
+          "accuracy": 0.5978,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.488,
+          "accuracy": 0.2708,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.491,
+          "accuracy": 0.2697,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.488,
+          "accuracy": 0.2707,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.49,
+          "accuracy": 0.2702,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.446,
+          "accuracy": 0.6178,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.269,
+          "accuracy": 0.6769,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.3,
+      "method": "Chow",
+      "mean_site_cost": 1.992,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.4384,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.7,
+          "accuracy": 0.5332,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.49,
+          "accuracy": 0.27,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.484,
+          "accuracy": 0.6053,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.579,
+          "accuracy": 0.5978,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.489,
+          "accuracy": 0.2705,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.489,
+          "accuracy": 0.2703,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.49,
+          "accuracy": 0.2702,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.488,
+          "accuracy": 0.2706,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.447,
+          "accuracy": 0.6177,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.266,
+          "accuracy": 0.6781,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.3,
+      "method": "L2D_MS",
+      "mean_site_cost": 2.202,
+      "site_cost_sd": 0.473,
+      "mean_site_accuracy": 0.511,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.764,
+          "accuracy": 0.5936,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.246,
+          "accuracy": 0.3515,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.8,
+          "accuracy": 0.653,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 3.511,
+          "accuracy": 0.4723,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.292,
+          "accuracy": 0.336,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.108,
+          "accuracy": 0.3973,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.017,
+          "accuracy": 0.4278,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.101,
+          "accuracy": 0.3998,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.894,
+          "accuracy": 0.7233,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 2.29,
+          "accuracy": 0.7557,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.3,
+      "method": "L2D_OvA",
+      "mean_site_cost": 1.876,
+      "site_cost_sd": 0.283,
+      "mean_site_accuracy": 0.5652,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 2.399,
+          "accuracy": 0.5815,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.112,
+          "accuracy": 0.3959,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.421,
+          "accuracy": 0.7118,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.565,
+          "accuracy": 0.6264,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.121,
+          "accuracy": 0.393,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.016,
+          "accuracy": 0.428,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.939,
+          "accuracy": 0.4537,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.797,
+          "accuracy": 0.5011,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.617,
+          "accuracy": 0.7478,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.768,
+          "accuracy": 0.8132,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.5,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.5,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 1.98,
+      "site_cost_sd": 0.447,
+      "mean_site_accuracy": 0.5926,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.907,
+          "accuracy": 0.671,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.15,
+          "accuracy": 0.45,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.328,
+          "accuracy": 0.7715,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 2.866,
+          "accuracy": 0.6496,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.148,
+          "accuracy": 0.4509,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.152,
+          "accuracy": 0.4495,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.15,
+          "accuracy": 0.4499,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.148,
+          "accuracy": 0.4509,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.222,
+          "accuracy": 0.79,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.729,
+          "accuracy": 0.7925,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.5,
+      "method": "Chow",
+      "mean_site_cost": 1.982,
+      "site_cost_sd": 0.451,
+      "mean_site_accuracy": 0.5924,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.905,
+          "accuracy": 0.6704,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.152,
+          "accuracy": 0.4493,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.324,
+          "accuracy": 0.7713,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 2.879,
+          "accuracy": 0.6487,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.148,
+          "accuracy": 0.4509,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.149,
+          "accuracy": 0.4505,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.152,
+          "accuracy": 0.4493,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.148,
+          "accuracy": 0.4509,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.211,
+          "accuracy": 0.79,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.756,
+          "accuracy": 0.7925,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.5,
+      "method": "L2D_MS",
+      "mean_site_cost": 2.577,
+      "site_cost_sd": 0.873,
+      "mean_site_accuracy": 0.626,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 2.312,
+          "accuracy": 0.7005,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 1.933,
+          "accuracy": 0.5222,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 2.886,
+          "accuracy": 0.7162,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 4.272,
+          "accuracy": 0.5624,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 1.976,
+          "accuracy": 0.5082,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 1.806,
+          "accuracy": 0.5647,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.754,
+          "accuracy": 0.5819,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.82,
+          "accuracy": 0.5601,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 3.158,
+          "accuracy": 0.7724,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 3.853,
+          "accuracy": 0.7715,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.9,
+      "budget": 0.5,
+      "method": "L2D_OvA",
+      "mean_site_cost": 2.278,
+      "site_cost_sd": 0.644,
+      "mean_site_accuracy": 0.6806,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 3.215,
+          "accuracy": 0.6695,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 1.787,
+          "accuracy": 0.5709,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 2.6,
+          "accuracy": 0.7706,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 2.311,
+          "accuracy": 0.7161,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 1.813,
+          "accuracy": 0.5625,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 1.687,
+          "accuracy": 0.6044,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.638,
+          "accuracy": 0.6204,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.517,
+          "accuracy": 0.6611,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 3.136,
+          "accuracy": 0.7808,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 3.073,
+          "accuracy": 0.8502,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.1,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.1,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 1.963,
+      "site_cost_sd": 0.509,
+      "mean_site_accuracy": 0.3789,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.757,
+          "accuracy": 0.4475,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.558,
+          "accuracy": 0.1806,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.53,
+          "accuracy": 0.5234,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.818,
+          "accuracy": 0.4267,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.598,
+          "accuracy": 0.1673,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.446,
+          "accuracy": 0.218,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.236,
+          "accuracy": 0.288,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.285,
+          "accuracy": 0.2716,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.281,
+          "accuracy": 0.6064,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.123,
+          "accuracy": 0.6591,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.1,
+      "method": "Chow",
+      "mean_site_cost": 1.963,
+      "site_cost_sd": 0.509,
+      "mean_site_accuracy": 0.3788,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.757,
+          "accuracy": 0.4475,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.559,
+          "accuracy": 0.1802,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.531,
+          "accuracy": 0.5231,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.819,
+          "accuracy": 0.4266,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.598,
+          "accuracy": 0.1672,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.446,
+          "accuracy": 0.2179,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.236,
+          "accuracy": 0.2879,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.286,
+          "accuracy": 0.2715,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.281,
+          "accuracy": 0.6065,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.121,
+          "accuracy": 0.6595,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.1,
+      "method": "L2D_MS",
+      "mean_site_cost": 1.828,
+      "site_cost_sd": 0.493,
+      "mean_site_accuracy": 0.4316,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.559,
+          "accuracy": 0.5138,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.37,
+          "accuracy": 0.2434,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.334,
+          "accuracy": 0.5887,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.889,
+          "accuracy": 0.4376,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.411,
+          "accuracy": 0.2296,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.284,
+          "accuracy": 0.2721,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.11,
+          "accuracy": 0.33,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.139,
+          "accuracy": 0.3205,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.087,
+          "accuracy": 0.6713,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.093,
+          "accuracy": 0.7094,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.1,
+      "method": "L2D_OvA",
+      "mean_site_cost": 1.792,
+      "site_cost_sd": 0.488,
+      "mean_site_accuracy": 0.4421,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.616,
+          "accuracy": 0.5164,
+          "escalation_rate": 0.0999
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.36,
+          "accuracy": 0.2466,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.361,
+          "accuracy": 0.5939,
+          "escalation_rate": 0.0998
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.702,
+          "accuracy": 0.4655,
+          "escalation_rate": 0.0984
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.379,
+          "accuracy": 0.2403,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.258,
+          "accuracy": 0.2805,
+          "escalation_rate": 0.1
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.103,
+          "accuracy": 0.3325,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.041,
+          "accuracy": 0.3529,
+          "escalation_rate": 0.1001
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.13,
+          "accuracy": 0.6689,
+          "escalation_rate": 0.1004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 0.97,
+          "accuracy": 0.724,
+          "escalation_rate": 0.1
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.3,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.3,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 1.943,
+      "site_cost_sd": 0.511,
+      "mean_site_accuracy": 0.4532,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.656,
+          "accuracy": 0.548,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.2853,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.439,
+          "accuracy": 0.6201,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.489,
+          "accuracy": 0.6128,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.2855,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.445,
+          "accuracy": 0.285,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.443,
+          "accuracy": 0.2856,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.444,
+          "accuracy": 0.2855,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.402,
+          "accuracy": 0.6327,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.224,
+          "accuracy": 0.6919,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.3,
+      "method": "Chow",
+      "mean_site_cost": 1.944,
+      "site_cost_sd": 0.51,
+      "mean_site_accuracy": 0.4532,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.655,
+          "accuracy": 0.5484,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.2853,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.44,
+          "accuracy": 0.6199,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.495,
+          "accuracy": 0.6134,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.2854,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.445,
+          "accuracy": 0.285,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.445,
+          "accuracy": 0.2851,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.444,
+          "accuracy": 0.2854,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.402,
+          "accuracy": 0.6325,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.224,
+          "accuracy": 0.6921,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.3,
+      "method": "L2D_MS",
+      "mean_site_cost": 1.947,
+      "site_cost_sd": 0.37,
+      "mean_site_accuracy": 0.5261,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.597,
+          "accuracy": 0.609,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.199,
+          "accuracy": 0.3669,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.534,
+          "accuracy": 0.668,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 2.703,
+          "accuracy": 0.4871,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.247,
+          "accuracy": 0.351,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.064,
+          "accuracy": 0.4121,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.971,
+          "accuracy": 0.4432,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.056,
+          "accuracy": 0.4147,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.484,
+          "accuracy": 0.7378,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.616,
+          "accuracy": 0.7715,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.3,
+      "method": "L2D_OvA",
+      "mean_site_cost": 1.694,
+      "site_cost_sd": 0.327,
+      "mean_site_accuracy": 0.5802,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.931,
+          "accuracy": 0.5964,
+          "escalation_rate": 0.2998
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.067,
+          "accuracy": 0.411,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.245,
+          "accuracy": 0.7269,
+          "escalation_rate": 0.2995
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.445,
+          "accuracy": 0.6416,
+          "escalation_rate": 0.3005
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.077,
+          "accuracy": 0.4076,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 1.971,
+          "accuracy": 0.4432,
+          "escalation_rate": 0.3
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.894,
+          "accuracy": 0.4687,
+          "escalation_rate": 0.3002
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.752,
+          "accuracy": 0.5161,
+          "escalation_rate": 0.3003
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.303,
+          "accuracy": 0.7626,
+          "escalation_rate": 0.2996
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.259,
+          "accuracy": 0.8282,
+          "escalation_rate": 0.3
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.5,
+      "method": "Automatic",
+      "mean_site_cost": 1.865,
+      "site_cost_sd": 0.507,
+      "mean_site_accuracy": 0.3783,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.642,
+          "accuracy": 0.4525,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.444,
+          "accuracy": 0.1852,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.415,
+          "accuracy": 0.5284,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.869,
+          "accuracy": 0.377,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.483,
+          "accuracy": 0.1723,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.331,
+          "accuracy": 0.223,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.122,
+          "accuracy": 0.2928,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.17,
+          "accuracy": 0.2765,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.165,
+          "accuracy": 0.6115,
+          "escalation_rate": 0.0
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.007,
+          "accuracy": 0.6643,
+          "escalation_rate": 0.0
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.5,
+      "method": "EcoTrust_gate",
+      "mean_site_cost": 1.773,
+      "site_cost_sd": 0.397,
+      "mean_site_accuracy": 0.6176,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.624,
+          "accuracy": 0.6959,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.073,
+          "accuracy": 0.4755,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.177,
+          "accuracy": 0.7961,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 2.112,
+          "accuracy": 0.6748,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.073,
+          "accuracy": 0.4757,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.075,
+          "accuracy": 0.475,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.074,
+          "accuracy": 0.475,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.072,
+          "accuracy": 0.476,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.099,
+          "accuracy": 0.815,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.353,
+          "accuracy": 0.8174,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.5,
+      "method": "Chow",
+      "mean_site_cost": 1.778,
+      "site_cost_sd": 0.396,
+      "mean_site_accuracy": 0.6175,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.614,
+          "accuracy": 0.6956,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 2.074,
+          "accuracy": 0.4753,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.174,
+          "accuracy": 0.7961,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 2.131,
+          "accuracy": 0.6746,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 2.072,
+          "accuracy": 0.4761,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 2.074,
+          "accuracy": 0.4753,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 2.076,
+          "accuracy": 0.4745,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 2.073,
+          "accuracy": 0.4757,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 1.099,
+          "accuracy": 0.8149,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.389,
+          "accuracy": 0.8168,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.5,
+      "method": "L2D_MS",
+      "mean_site_cost": 2.03,
+      "site_cost_sd": 0.391,
+      "mean_site_accuracy": 0.6509,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 1.781,
+          "accuracy": 0.726,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 1.857,
+          "accuracy": 0.5477,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 2.042,
+          "accuracy": 0.7408,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 3.005,
+          "accuracy": 0.5864,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 1.901,
+          "accuracy": 0.533,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 1.732,
+          "accuracy": 0.5892,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.676,
+          "accuracy": 0.6077,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.746,
+          "accuracy": 0.5847,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 2.128,
+          "accuracy": 0.7967,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 2.437,
+          "accuracy": 0.7966,
+          "escalation_rate": 0.5
+        }
+      ]
+    },
+    {
+      "reviewer_acc": 0.95,
+      "budget": 0.5,
+      "method": "L2D_OvA",
+      "mean_site_cost": 1.793,
+      "site_cost_sd": 0.24,
+      "mean_site_accuracy": 0.7058,
+      "sites": [
+        {
+          "site": "MIDDLE FORK WILLAMETTE RIVER NEAR DEXTER, OR",
+          "deployment_cost": 2.299,
+          "accuracy": 0.6944,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR",
+          "deployment_cost": 1.712,
+          "accuracy": 0.596,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SALMON RIVER AT WHITE BIRD ID",
+          "deployment_cost": 1.801,
+          "accuracy": 0.796,
+          "escalation_rate": 0.4991
+        },
+        {
+          "site": "YAKIMA RIVER ABOVE AHTANUM CREEK AT UNION GAP, WA",
+          "deployment_cost": 1.756,
+          "accuracy": 0.7412,
+          "escalation_rate": 0.5027
+        },
+        {
+          "site": "MCKENZIE RIVER NEAR VIDA, OR",
+          "deployment_cost": 1.739,
+          "accuracy": 0.5872,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "ROGUE RIVER AT DODGE BRIDGE, NEAR EAGLE POINT, OR",
+          "deployment_cost": 1.61,
+          "accuracy": 0.63,
+          "escalation_rate": 0.5
+        },
+        {
+          "site": "SKAGIT RIVER AT MARBLEMOUNT, WA",
+          "deployment_cost": 1.563,
+          "accuracy": 0.6455,
+          "escalation_rate": 0.4996
+        },
+        {
+          "site": "NOOKSACK RIVER AT NORTH CEDARVILLE, WA",
+          "deployment_cost": 1.442,
+          "accuracy": 0.686,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "CLEARWATER RIVER AT OROFINO ID",
+          "deployment_cost": 2.075,
+          "accuracy": 0.8059,
+          "escalation_rate": 0.5004
+        },
+        {
+          "site": "SNAKE RIVER AT WEISER ID",
+          "deployment_cost": 1.937,
+          "accuracy": 0.8754,
+          "escalation_rate": 0.5
+        }
+      ]
+    }
+  ]
+}

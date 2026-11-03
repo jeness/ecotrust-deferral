@@ -1,0 +1,37 @@
+[
+  {
+    "human_accuracy": 0.7,
+    "governance_accuracy": 0.7805,
+    "vs_raw": -0.1375
+  },
+  {
+    "human_accuracy": 0.75,
+    "governance_accuracy": 0.8156,
+    "vs_raw": -0.1024
+  },
+  {
+    "human_accuracy": 0.8,
+    "governance_accuracy": 0.8505,
+    "vs_raw": -0.0676
+  },
+  {
+    "human_accuracy": 0.85,
+    "governance_accuracy": 0.885,
+    "vs_raw": -0.0331
+  },
+  {
+    "human_accuracy": 0.9,
+    "governance_accuracy": 0.919,
+    "vs_raw": 0.001
+  },
+  {
+    "human_accuracy": 0.95,
+    "governance_accuracy": 0.9531,
+    "vs_raw": 0.0351
+  },
+  {
+    "human_accuracy": 1.0,
+    "governance_accuracy": 0.9884,
+    "vs_raw": 0.0704
+  }
+]

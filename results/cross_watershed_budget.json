@@ -1,0 +1,50 @@
+[
+  {
+    "budget_pct": 10,
+    "esc_rate": 0.0999,
+    "err_cov": 0.083,
+    "acc_after": 0.6623
+  },
+  {
+    "budget_pct": 20,
+    "esc_rate": 0.1998,
+    "err_cov": 0.1794,
+    "acc_after": 0.6978
+  },
+  {
+    "budget_pct": 30,
+    "esc_rate": 0.2998,
+    "err_cov": 0.3072,
+    "acc_after": 0.7448
+  },
+  {
+    "budget_pct": 40,
+    "esc_rate": 0.3997,
+    "err_cov": 0.4462,
+    "acc_after": 0.796
+  },
+  {
+    "budget_pct": 50,
+    "esc_rate": 0.4996,
+    "err_cov": 0.5762,
+    "acc_after": 0.8439
+  },
+  {
+    "budget_pct": 60,
+    "esc_rate": 0.5995,
+    "err_cov": 0.6368,
+    "acc_after": 0.8662
+  },
+  {
+    "budget_pct": 70,
+    "esc_rate": 0.6994,
+    "err_cov": 0.6839,
+    "acc_after": 0.8836
+  },
+  {
+    "budget_pct": 92,
+    "esc_rate": 0.9199,
+    "err_cov": 1.0,
+    "acc_after": 1.0
+  }
+]

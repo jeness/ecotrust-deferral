@@ -1,0 +1,241 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{xcolor}
+\definecolor{cbGreen}{HTML}{009E73}
+\definecolor{cell0}{HTML}{EDA097}
+\definecolor{cell1}{HTML}{EC9E95}
+\definecolor{cell2}{HTML}{E7847B}
+\definecolor{cell3}{HTML}{FCF0E6}
+\definecolor{cell4}{HTML}{FCEDE3}
+\definecolor{cell5}{HTML}{FFFFF5}
+\definecolor{cell6}{HTML}{D73027}
+\definecolor{cell7}{HTML}{D73027}
+\definecolor{cell8}{HTML}{D73027}
+\definecolor{cell9}{HTML}{F8DBD1}
+\definecolor{cell10}{HTML}{F5CBC1}
+\definecolor{cell11}{HTML}{FFFFF5}
+\definecolor{cell12}{HTML}{F3C2B8}
+\definecolor{cell13}{HTML}{F1B9AF}
+\definecolor{cell14}{HTML}{EEA59C}
+\definecolor{cell15}{HTML}{FBEDE3}
+\definecolor{cell16}{HTML}{FFFDF3}
+\definecolor{cell17}{HTML}{FFFFF5}
+\definecolor{cell18}{HTML}{E67F75}
+\definecolor{cell19}{HTML}{E7837A}
+\definecolor{cell20}{HTML}{E5786F}
+\definecolor{cell21}{HTML}{F6D3C9}
+\definecolor{cell22}{HTML}{FAE5DC}
+\definecolor{cell23}{HTML}{FFFFF5}
+\definecolor{cell24}{HTML}{D73027}
+\definecolor{cell25}{HTML}{D73027}
+\definecolor{cell26}{HTML}{D73027}
+\definecolor{cell27}{HTML}{F5CEC4}
+\definecolor{cell28}{HTML}{F5CBC1}
+\definecolor{cell29}{HTML}{FFFFF5}
+\definecolor{cell30}{HTML}{D93A31}
+\definecolor{cell31}{HTML}{D73027}
+\definecolor{cell32}{HTML}{D73027}
+\definecolor{cell33}{HTML}{FBECE2}
+\definecolor{cell34}{HTML}{F6CFC5}
+\definecolor{cell35}{HTML}{FFFFF5}
+\definecolor{cell36}{HTML}{DF5950}
+\definecolor{cell37}{HTML}{DA4037}
+\definecolor{cell38}{HTML}{D73027}
+\definecolor{cell39}{HTML}{F8D9CF}
+\definecolor{cell40}{HTML}{F9E0D6}
+\definecolor{cell41}{HTML}{FFFFF5}
+\definecolor{cell42}{HTML}{DE5249}
+\definecolor{cell43}{HTML}{D93C33}
+\definecolor{cell44}{HTML}{D73027}
+\definecolor{cell45}{HTML}{F9DFD5}
+\definecolor{cell46}{HTML}{FAE3D9}
+\definecolor{cell47}{HTML}{FFFFF5}
+\definecolor{cell48}{HTML}{FAE7DD}
+\definecolor{cell49}{HTML}{F6D1C8}
+\definecolor{cell50}{HTML}{F3C0B6}
+\definecolor{cell51}{HTML}{FEF9EF}
+\definecolor{cell52}{HTML}{9AC0D7}
+\definecolor{cell53}{HTML}{FFFFF5}
+\definecolor{cell54}{HTML}{FFFEF4}
+\definecolor{cell55}{HTML}{F9E0D7}
+\definecolor{cell56}{HTML}{F7D8CE}
+\definecolor{cell57}{HTML}{D3E3E8}
+\definecolor{cell58}{HTML}{2C7BB6}
+\definecolor{cell59}{HTML}{FFFFF5}
+\begin{document}
+\begin{tikzpicture}
+\node[font=\small\bfseries,anchor=east] at (3.25,0.62) {USGS station};
+\node[font=\small\bfseries] at (4.18,0.62) {Error};
+\node[font=\small\bfseries] at (10.25,1.03) {Deployment cost per day};
+\node[font=\small\bfseries] at (6.050,0.62) {Auto};
+\node[font=\small\bfseries] at (7.730,0.62) {Chow};
+\node[font=\small\bfseries] at (9.410,0.62) {Ungated};
+\node[font=\small\bfseries] at (11.090,0.62) {L2D-MS};
+\node[font=\small\bfseries] at (12.770,0.62) {L2D-OvA};
+\node[font=\small\bfseries] at (14.450,0.62) {Gate};
+\node[font=\footnotesize,anchor=east] at (3.25,-0.000) {MF Willamette};
+\path[fill=black!7] (3.45,-0.080) rectangle (4.90,0.080);
+\path[fill=cbGreen!75] (3.45,-0.080) rectangle (4.244,0.080);
+\node[font=\footnotesize,anchor=east] at (4.84,-0.000) {54.8\%};
+\draw[fill=cell0,draw=black!22,line width=0.35pt] (5.250,-0.250) rectangle (6.850,0.250);
+\node[font=\footnotesize] at (6.050,-0.000) {1.642};
+\draw[fill=cell1,draw=black!22,line width=0.35pt] (6.930,-0.250) rectangle (8.530,0.250);
+\node[font=\footnotesize] at (7.730,-0.000) {1.653};
+\draw[fill=cell2,draw=black!22,line width=0.35pt] (8.610,-0.250) rectangle (10.210,0.250);
+\node[font=\footnotesize] at (9.410,-0.000) {1.832};
+\draw[fill=cell3,draw=black!22,line width=0.35pt] (10.290,-0.250) rectangle (11.890,0.250);
+\node[font=\footnotesize] at (11.090,-0.000) {1.101};
+\draw[fill=cell4,draw=black!22,line width=0.35pt] (11.970,-0.250) rectangle (13.570,0.250);
+\node[font=\footnotesize] at (12.770,-0.000) {1.119};
+\draw[fill=cell5,draw=black,line width=0.9pt] (13.650,-0.250) rectangle (15.250,0.250);
+\node[font=\footnotesize\bfseries] at (14.450,-0.000) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-0.580) {N Umpqua};
+\path[fill=black!7] (3.45,-0.660) rectangle (4.90,-0.500);
+\path[fill=cbGreen!75] (3.45,-0.660) rectangle (4.631,-0.500);
+\node[font=\footnotesize,anchor=east] at (4.84,-0.580) {81.5\%};
+\draw[fill=cell6,draw=black!22,line width=0.35pt] (5.250,-0.830) rectangle (6.850,-0.330);
+\node[font=\footnotesize] at (6.050,-0.580) {2.444};
+\draw[fill=cell7,draw=black!22,line width=0.35pt] (6.930,-0.830) rectangle (8.530,-0.330);
+\node[font=\footnotesize] at (7.730,-0.580) {2.482};
+\draw[fill=cell8,draw=black!22,line width=0.35pt] (8.610,-0.830) rectangle (10.210,-0.330);
+\node[font=\footnotesize] at (9.410,-0.580) {2.630};
+\draw[fill=cell9,draw=black!22,line width=0.35pt] (10.290,-0.830) rectangle (11.890,-0.330);
+\node[font=\footnotesize] at (11.090,-0.580) {1.245};
+\draw[fill=cell10,draw=black!22,line width=0.35pt] (11.970,-0.830) rectangle (13.570,-0.330);
+\node[font=\footnotesize] at (12.770,-0.580) {1.353};
+\draw[fill=cell11,draw=black,line width=0.9pt] (13.650,-0.830) rectangle (15.250,-0.330);
+\node[font=\footnotesize\bfseries] at (14.450,-0.580) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-1.160) {Salmon};
+\path[fill=black!7] (3.45,-1.240) rectangle (4.90,-1.080);
+\path[fill=cbGreen!75] (3.45,-1.240) rectangle (4.134,-1.080);
+\node[font=\footnotesize,anchor=east] at (4.84,-1.160) {47.2\%};
+\draw[fill=cell12,draw=black!22,line width=0.35pt] (5.250,-1.410) rectangle (6.850,-0.910);
+\node[font=\footnotesize] at (6.050,-1.160) {1.415};
+\draw[fill=cell13,draw=black!22,line width=0.35pt] (6.930,-1.410) rectangle (8.530,-0.910);
+\node[font=\footnotesize] at (7.730,-1.160) {1.473};
+\draw[fill=cell14,draw=black!22,line width=0.35pt] (8.610,-1.410) rectangle (10.210,-0.910);
+\node[font=\footnotesize] at (9.410,-1.160) {1.608};
+\draw[fill=cell15,draw=black!22,line width=0.35pt] (10.290,-1.410) rectangle (11.890,-0.910);
+\node[font=\footnotesize] at (11.090,-1.160) {1.123};
+\draw[fill=cell16,draw=black!22,line width=0.35pt] (11.970,-1.410) rectangle (13.570,-0.910);
+\node[font=\footnotesize] at (12.770,-1.160) {1.016};
+\draw[fill=cell17,draw=black,line width=0.9pt] (13.650,-1.410) rectangle (15.250,-0.910);
+\node[font=\footnotesize\bfseries] at (14.450,-1.160) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-1.740) {Yakima};
+\path[fill=black!7] (3.45,-1.820) rectangle (4.90,-1.660);
+\path[fill=cbGreen!75] (3.45,-1.820) rectangle (4.353,-1.660);
+\node[font=\footnotesize,anchor=east] at (4.84,-1.740) {62.3\%};
+\draw[fill=cell18,draw=black!22,line width=0.35pt] (5.250,-1.990) rectangle (6.850,-1.490);
+\node[font=\footnotesize] at (6.050,-1.740) {1.869};
+\draw[fill=cell19,draw=black!22,line width=0.35pt] (6.930,-1.990) rectangle (8.530,-1.490);
+\node[font=\footnotesize] at (7.730,-1.740) {1.836};
+\draw[fill=cell20,draw=black!22,line width=0.35pt] (8.610,-1.990) rectangle (10.210,-1.490);
+\node[font=\footnotesize] at (9.410,-1.740) {1.913};
+\draw[fill=cell21,draw=black!22,line width=0.35pt] (10.290,-1.990) rectangle (11.890,-1.490);
+\node[font=\footnotesize] at (11.090,-1.740) {1.299};
+\draw[fill=cell22,draw=black!22,line width=0.35pt] (11.970,-1.990) rectangle (13.570,-1.490);
+\node[font=\footnotesize] at (12.770,-1.740) {1.173};
+\draw[fill=cell23,draw=black,line width=0.9pt] (13.650,-1.990) rectangle (15.250,-1.490);
+\node[font=\footnotesize\bfseries] at (14.450,-1.740) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-2.320) {McKenzie};
+\path[fill=black!7] (3.45,-2.400) rectangle (4.90,-2.240);
+\path[fill=cbGreen!75] (3.45,-2.400) rectangle (4.650,-2.240);
+\node[font=\footnotesize,anchor=east] at (4.84,-2.320) {82.8\%};
+\draw[fill=cell24,draw=black!22,line width=0.35pt] (5.250,-2.570) rectangle (6.850,-2.070);
+\node[font=\footnotesize] at (6.050,-2.320) {2.483};
+\draw[fill=cell25,draw=black!22,line width=0.35pt] (6.930,-2.570) rectangle (8.530,-2.070);
+\node[font=\footnotesize] at (7.730,-2.320) {2.495};
+\draw[fill=cell26,draw=black!22,line width=0.35pt] (8.610,-2.570) rectangle (10.210,-2.070);
+\node[font=\footnotesize] at (9.410,-2.320) {2.655};
+\draw[fill=cell27,draw=black!22,line width=0.35pt] (10.290,-2.570) rectangle (11.890,-2.070);
+\node[font=\footnotesize] at (11.090,-2.320) {1.334};
+\draw[fill=cell28,draw=black!22,line width=0.35pt] (11.970,-2.570) rectangle (13.570,-2.070);
+\node[font=\footnotesize] at (12.770,-2.320) {1.354};
+\draw[fill=cell29,draw=black,line width=0.9pt] (13.650,-2.570) rectangle (15.250,-2.070);
+\node[font=\footnotesize\bfseries] at (14.450,-2.320) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-2.900) {Rogue};
+\path[fill=black!7] (3.45,-2.980) rectangle (4.90,-2.820);
+\path[fill=cbGreen!75] (3.45,-2.980) rectangle (4.577,-2.820);
+\node[font=\footnotesize,anchor=east] at (4.84,-2.900) {77.7\%};
+\draw[fill=cell30,draw=black!22,line width=0.35pt] (5.250,-3.150) rectangle (6.850,-2.650);
+\node[font=\footnotesize] at (6.050,-2.900) {2.331};
+\draw[fill=cell31,draw=black!22,line width=0.35pt] (6.930,-3.150) rectangle (8.530,-2.650);
+\node[font=\footnotesize] at (7.730,-2.900) {2.420};
+\draw[fill=cell32,draw=black!22,line width=0.35pt] (8.610,-3.150) rectangle (10.210,-2.650);
+\node[font=\footnotesize] at (9.410,-2.900) {2.554};
+\draw[fill=cell33,draw=black!22,line width=0.35pt] (10.290,-3.150) rectangle (11.890,-2.650);
+\node[font=\footnotesize] at (11.090,-2.900) {1.131};
+\draw[fill=cell34,draw=black!22,line width=0.35pt] (11.970,-3.150) rectangle (13.570,-2.650);
+\node[font=\footnotesize] at (12.770,-2.900) {1.326};
+\draw[fill=cell35,draw=black,line width=0.9pt] (13.650,-3.150) rectangle (15.250,-2.650);
+\node[font=\footnotesize\bfseries] at (14.450,-2.900) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-3.480) {Skagit};
+\path[fill=black!7] (3.45,-3.560) rectangle (4.90,-3.400);
+\path[fill=cbGreen!75] (3.45,-3.560) rectangle (4.475,-3.400);
+\node[font=\footnotesize,anchor=east] at (4.84,-3.480) {70.7\%};
+\draw[fill=cell36,draw=black!22,line width=0.35pt] (5.250,-3.730) rectangle (6.850,-3.230);
+\node[font=\footnotesize] at (6.050,-3.480) {2.122};
+\draw[fill=cell37,draw=black!22,line width=0.35pt] (6.930,-3.730) rectangle (8.530,-3.230);
+\node[font=\footnotesize] at (7.730,-3.480) {2.289};
+\draw[fill=cell38,draw=black!22,line width=0.35pt] (8.610,-3.730) rectangle (10.210,-3.230);
+\node[font=\footnotesize] at (9.410,-3.480) {2.414};
+\draw[fill=cell39,draw=black!22,line width=0.35pt] (10.290,-3.730) rectangle (11.890,-3.230);
+\node[font=\footnotesize] at (11.090,-3.480) {1.259};
+\draw[fill=cell40,draw=black!22,line width=0.35pt] (11.970,-3.730) rectangle (13.570,-3.230);
+\node[font=\footnotesize] at (12.770,-3.480) {1.208};
+\draw[fill=cell41,draw=black,line width=0.9pt] (13.650,-3.730) rectangle (15.250,-3.230);
+\node[font=\footnotesize\bfseries] at (14.450,-3.480) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-4.060) {Nooksack};
+\path[fill=black!7] (3.45,-4.140) rectangle (4.90,-3.980);
+\path[fill=cbGreen!75] (3.45,-4.140) rectangle (4.499,-3.980);
+\node[font=\footnotesize,anchor=east] at (4.84,-4.060) {72.4\%};
+\draw[fill=cell42,draw=black!22,line width=0.35pt] (5.250,-4.310) rectangle (6.850,-3.810);
+\node[font=\footnotesize] at (6.050,-4.060) {2.170};
+\draw[fill=cell43,draw=black!22,line width=0.35pt] (6.930,-4.310) rectangle (8.530,-3.810);
+\node[font=\footnotesize] at (7.730,-4.060) {2.316};
+\draw[fill=cell44,draw=black!22,line width=0.35pt] (8.610,-4.310) rectangle (10.210,-3.810);
+\node[font=\footnotesize] at (9.410,-4.060) {2.447};
+\draw[fill=cell45,draw=black!22,line width=0.35pt] (10.290,-4.310) rectangle (11.890,-3.810);
+\node[font=\footnotesize] at (11.090,-4.060) {1.219};
+\draw[fill=cell46,draw=black!22,line width=0.35pt] (11.970,-4.310) rectangle (13.570,-3.810);
+\node[font=\footnotesize] at (12.770,-4.060) {1.188};
+\draw[fill=cell47,draw=black,line width=0.9pt] (13.650,-4.310) rectangle (15.250,-3.810);
+\node[font=\footnotesize\bfseries] at (14.450,-4.060) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-4.640) {Clearwater};
+\path[fill=black!7] (3.45,-4.720) rectangle (4.90,-4.560);
+\path[fill=cbGreen!75] (3.45,-4.720) rectangle (4.013,-4.560);
+\node[font=\footnotesize,anchor=east] at (4.84,-4.640) {38.9\%};
+\draw[fill=cell48,draw=black!22,line width=0.35pt] (5.250,-4.890) rectangle (6.850,-4.390);
+\node[font=\footnotesize] at (6.050,-4.640) {1.165};
+\draw[fill=cell49,draw=black!22,line width=0.35pt] (6.930,-4.890) rectangle (8.530,-4.390);
+\node[font=\footnotesize] at (7.730,-4.640) {1.309};
+\draw[fill=cell50,draw=black!22,line width=0.35pt] (8.610,-4.890) rectangle (10.210,-4.390);
+\node[font=\footnotesize] at (9.410,-4.640) {1.429};
+\draw[fill=cell51,draw=black!22,line width=0.35pt] (10.290,-4.890) rectangle (11.890,-4.390);
+\node[font=\footnotesize] at (11.090,-4.640) {1.041};
+\draw[fill=cell52,draw=black,line width=0.9pt] (11.970,-4.890) rectangle (13.570,-4.390);
+\node[font=\footnotesize\bfseries] at (12.770,-4.640) {0.952};
+\draw[fill=cell53,draw=black!22,line width=0.35pt] (13.650,-4.890) rectangle (15.250,-4.390);
+\node[font=\footnotesize] at (14.450,-4.640) {1.000};
+\node[font=\footnotesize,anchor=east] at (3.25,-5.220) {Snake};
+\path[fill=black!7] (3.45,-5.300) rectangle (4.90,-5.140);
+\path[fill=cbGreen!75] (3.45,-5.300) rectangle (3.937,-5.140);
+\node[font=\footnotesize,anchor=east] at (4.84,-5.220) {33.6\%};
+\draw[fill=cell54,draw=black!22,line width=0.35pt] (5.250,-5.470) rectangle (6.850,-4.970);
+\node[font=\footnotesize] at (6.050,-5.220) {1.007};
+\draw[fill=cell55,draw=black!22,line width=0.35pt] (6.930,-5.470) rectangle (8.530,-4.970);
+\node[font=\footnotesize] at (7.730,-5.220) {1.207};
+\draw[fill=cell56,draw=black!22,line width=0.35pt] (8.610,-5.470) rectangle (10.210,-4.970);
+\node[font=\footnotesize] at (9.410,-5.220) {1.264};
+\draw[fill=cell57,draw=black!22,line width=0.35pt] (10.290,-5.470) rectangle (11.890,-4.970);
+\node[font=\footnotesize] at (11.090,-5.220) {0.979};
+\draw[fill=cell58,draw=black,line width=0.9pt] (11.970,-5.470) rectangle (13.570,-4.970);
+\node[font=\footnotesize\bfseries] at (12.770,-5.220) {0.850};
+\draw[fill=cell59,draw=black!22,line width=0.35pt] (13.650,-5.470) rectangle (15.250,-4.970);
+\node[font=\footnotesize] at (14.450,-5.220) {1.000};
+\node[font=\footnotesize,anchor=west] at (5.25,-5.82) {blue: $<1$};
+\node[font=\footnotesize,anchor=west] at (7.35,-5.82) {white: one review/day};
+\node[font=\footnotesize,anchor=west] at (11.25,-5.82) {red: $>1$};
+\draw[black,line width=.9pt] (14.0,-5.99) rectangle (14.45,-5.65);
+\node[font=\footnotesize,anchor=west] at (14.55,-5.82) {row minimum};
+\end{tikzpicture}
+\end{document}

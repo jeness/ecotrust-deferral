@@ -1,0 +1,98 @@
+[
+  {
+    "scenario": "S1_normal",
+    "n_samples": 3638,
+    "n_positive": 669,
+    "prevalence": 0.1839,
+    "accuracy": 0.9758,
+    "f1_score": 0.9315,
+    "mean_ensemble_std": 0.0121,
+    "mean_entropy": 0.0591,
+    "roc_auc": 0.9953,
+    "cp_coverage": 0.6982,
+    "escalation_rate": 0.4492,
+    "error_coverage": 0.4432,
+    "error_reduction": 0.0107,
+    "accuracy_before": 0.9758,
+    "accuracy_after": 0.9865,
+    "conflict_rate": 0.3668,
+    "reason_breakdown": {
+      "agent_conflict": 1340,
+      "risk_score_high": 610,
+      "entropy_high": 105,
+      "ensemble_disagreement_high": 29
+    }
+  },
+  {
+    "scenario": "S2_sensor_failure",
+    "n_samples": 3638,
+    "n_positive": 669,
+    "prevalence": 0.1839,
+    "accuracy": 0.9758,
+    "f1_score": 0.9315,
+    "mean_ensemble_std": 0.0121,
+    "mean_entropy": 0.0591,
+    "roc_auc": 0.9953,
+    "cp_coverage": 0.6982,
+    "escalation_rate": 0.4492,
+    "error_coverage": 0.4432,
+    "error_reduction": 0.0107,
+    "accuracy_before": 0.9758,
+    "accuracy_after": 0.9865,
+    "conflict_rate": 0.3668,
+    "reason_breakdown": {
+      "agent_conflict": 1340,
+      "risk_score_high": 610,
+      "entropy_high": 105,
+      "ensemble_disagreement_high": 29
+    }
+  },
+  {
+    "scenario": "S3_noisy",
+    "n_samples": 3638,
+    "n_positive": 669,
+    "prevalence": 0.1839,
+    "accuracy": 0.9758,
+    "f1_score": 0.9315,
+    "mean_ensemble_std": 0.0122,
+    "mean_entropy": 0.0592,
+    "roc_auc": 0.9955,
+    "cp_coverage": 0.696,
+    "escalation_rate": 0.4511,
+    "error_coverage": 0.4659,
+    "error_reduction": 0.0113,
+    "accuracy_before": 0.9758,
+    "accuracy_after": 0.9871,
+    "conflict_rate": 0.3685,
+    "reason_breakdown": {
+      "agent_conflict": 1346,
+      "risk_score_high": 610,
+      "entropy_high": 107,
+      "ensemble_disagreement_high": 31
+    }
+  },
+  {
+    "scenario": "S4_governance",
+    "n_samples": 3638,
+    "n_positive": 669,
+    "prevalence": 0.1839,
+    "accuracy": 0.9758,
+    "f1_score": 0.9315,
+    "mean_ensemble_std": 0.0121,
+    "mean_entropy": 0.0591,
+    "roc_auc": 0.9953,
+    "cp_coverage": 0.6982,
+    "escalation_rate": 0.4492,
+    "error_coverage": 0.4432,
+    "error_reduction": 0.0107,
+    "accuracy_before": 0.9758,
+    "accuracy_after": 0.9865,
+    "conflict_rate": 0.3668,
+    "reason_breakdown": {
+      "agent_conflict": 1340,
+      "risk_score_high": 610,
+      "entropy_high": 105,
+      "ensemble_disagreement_high": 29
+    }
+  }
+]

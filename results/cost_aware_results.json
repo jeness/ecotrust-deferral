@@ -1,0 +1,86 @@
+{
+  "protocol": "temporal split: train<2011, cal 2011-2014 (OOS), test 2015+",
+  "n_train": 1086,
+  "n_cal": 488,
+  "n_test": 1208,
+  "results": [
+    {
+      "method": "EcoTrust Fixed",
+      "description": "risk>0.60 OR entropy>0.40 OR std>0.08 OR conflict",
+      "escalation_rate": 0.7318,
+      "error_coverage": 0.8415,
+      "accuracy_raw": 0.9321,
+      "accuracy_oracle": 0.9892,
+      "error_reduction": 0.0571,
+      "f1_oracle": 0.9902,
+      "tau_star": null,
+      "expected_cost": null
+    },
+    {
+      "tau_star": 0.141403,
+      "escalation_rate": 0.197,
+      "error_coverage": 0.6341,
+      "accuracy_raw": 0.9321,
+      "accuracy_oracle": 0.9752,
+      "error_reduction": 0.043,
+      "f1_oracle": 0.9776,
+      "expected_cost": 426,
+      "method": "CostAware (10:3:1)",
+      "description": "\u03c4*=0.1414, c_FN=10, c_FP=3, c_human=1"
+    },
+    {
+      "tau_star": -0.330412,
+      "escalation_rate": 0.6175,
+      "error_coverage": 0.9634,
+      "accuracy_raw": 0.9321,
+      "accuracy_oracle": 0.9975,
+      "error_reduction": 0.0654,
+      "f1_oracle": 0.9978,
+      "expected_cost": 852,
+      "method": "CostAware (100:3:1)",
+      "description": "\u03c4*=-0.3304, c_FN=100, c_FP=3, c_human=1"
+    }
+  ],
+  "signal_ablation_100_3_1": [
+    {
+      "method": "CostAware-Entropy (100:3:1)",
+      "tau_star": 0.1284,
+      "escalation_rate": 0.3336,
+      "error_coverage": 0.8902,
+      "accuracy_raw": 0.9321,
+      "accuracy_oracle": 0.9925
+    },
+    {
+      "method": "CostAware-RiskScore (100:3:1)",
+      "tau_star": -0.4713,
+      "escalation_rate": 0.3336,
+      "error_coverage": 0.8902,
+      "accuracy_raw": 0.9321,
+      "accuracy_oracle": 0.9925
+    },
+    {
+      "method": "CostAware-EnsembleStd (100:3:1)",
+      "tau_star": 0.0113,
+      "escalation_rate": 0.3593,
+      "error_coverage": 0.9146,
+      "accuracy_raw": 0.9321,
+      "accuracy_oracle": 0.9942
+    },
+    {
+      "method": "CostAware-ConflictOnly (100:3:1)",
+      "tau_star": -0.01,
+      "escalation_rate": 1.0,
+      "error_coverage": 1.0,
+      "accuracy_raw": 0.9321,
+      "accuracy_oracle": 1.0
+    },
+    {
+      "method": "CostAware-Composite-u (100:3:1)",
+      "tau_star": -0.3238,
+      "escalation_rate": 0.6118,
+      "error_coverage": 0.9512,
+      "accuracy_raw": 0.9321,
+      "accuracy_oracle": 0.9967
+    }
+  ]
+}

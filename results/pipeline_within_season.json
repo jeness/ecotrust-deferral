@@ -1,0 +1,25 @@
+{
+  "pipeline": "three_agent",
+  "evaluation": "within_season_aug_nov",
+  "n_test": 1208,
+  "prevalence": 0.5538,
+  "ensemble": {
+    "accuracy": 0.4851,
+    "f1": 0.1313,
+    "auc": 0.6354,
+    "ece": 0.4139
+  },
+  "ecotrust_governance": {
+    "accuracy": 0.7359,
+    "escalation_rate": 0.418,
+    "error_coverage": 0.4871,
+    "error_reduction": 0.2508,
+    "conflict_cases": 479,
+    "reason_breakdown": {
+      "entropy_high": 372,
+      "agent_conflict": 479,
+      "ensemble_disagreement_high": 55,
+      "risk_score_high": 47
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "budget_pct": 10,
+    "esc_rate": 0.1,
+    "err_cov": 0.3902,
+    "acc_after": 0.9586
+  },
+  {
+    "budget_pct": 20,
+    "esc_rate": 0.2,
+    "err_cov": 0.6829,
+    "acc_after": 0.9785
+  },
+  {
+    "budget_pct": 30,
+    "esc_rate": 0.3,
+    "err_cov": 0.7805,
+    "acc_after": 0.9851
+  },
+  {
+    "budget_pct": 40,
+    "esc_rate": 0.4,
+    "err_cov": 0.7927,
+    "acc_after": 0.9859
+  },
+  {
+    "budget_pct": 50,
+    "esc_rate": 0.5,
+    "err_cov": 0.7927,
+    "acc_after": 0.9859
+  },
+  {
+    "budget_pct": 70,
+    "esc_rate": 0.7,
+    "err_cov": 1.0,
+    "acc_after": 1.0
+  },
+  {
+    "budget_pct": 75,
+    "esc_rate": 0.7492,
+    "err_cov": 0.9268,
+    "acc_after": 0.995
+  }
+]

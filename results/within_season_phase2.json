@@ -1,0 +1,84 @@
+[
+  {
+    "backend": "Random Forest",
+    "setting": "Without EcoTrust",
+    "accuracy": 0.9272,
+    "f1": 0.9336,
+    "auc": 0.9789,
+    "ece": 0.0187,
+    "escalation_rate": null,
+    "error_coverage": null,
+    "error_reduction": null
+  },
+  {
+    "backend": "Random Forest",
+    "setting": "With EcoTrust",
+    "accuracy": 0.9909,
+    "f1": 0.9917,
+    "auc": 0.9789,
+    "ece": 0.0187,
+    "escalation_rate": 0.75,
+    "error_coverage": 0.875,
+    "error_reduction": 0.0637,
+    "reason_breakdown": {
+      "risk_score_high": 635,
+      "agent_conflict": 455,
+      "entropy_high": 281
+    }
+  },
+  {
+    "backend": "XGBoost",
+    "setting": "Without EcoTrust",
+    "accuracy": 0.9089,
+    "f1": 0.9159,
+    "auc": 0.9745,
+    "ece": 0.0488,
+    "escalation_rate": null,
+    "error_coverage": null,
+    "error_reduction": null
+  },
+  {
+    "backend": "XGBoost",
+    "setting": "With EcoTrust",
+    "accuracy": 0.981,
+    "f1": 0.9825,
+    "auc": 0.9745,
+    "ece": 0.0488,
+    "escalation_rate": 0.7036,
+    "error_coverage": 0.7909,
+    "error_reduction": 0.072,
+    "reason_breakdown": {
+      "risk_score_high": 614,
+      "agent_conflict": 455,
+      "entropy_high": 164
+    }
+  },
+  {
+    "backend": "EcoTrust Ensemble",
+    "setting": "Without EcoTrust",
+    "accuracy": 0.918,
+    "f1": 0.9248,
+    "auc": 0.9779,
+    "ece": 0.0218,
+    "escalation_rate": null,
+    "error_coverage": null,
+    "error_reduction": null
+  },
+  {
+    "backend": "EcoTrust Ensemble",
+    "setting": "With EcoTrust",
+    "accuracy": 0.9884,
+    "f1": 0.9894,
+    "auc": 0.9779,
+    "ece": 0.0218,
+    "escalation_rate": 0.7227,
+    "error_coverage": 0.8586,
+    "error_reduction": 0.0704,
+    "reason_breakdown": {
+      "risk_score_high": 634,
+      "agent_conflict": 455,
+      "ensemble_disagreement_high": 107,
+      "entropy_high": 203
+    }
+  }
+]

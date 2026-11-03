@@ -1,0 +1,6 @@
+method,accuracy,f1_score,roc_auc,escalation_rate,error_coverage,accuracy_w_human
+B0 Majority Class,0.8161,0.0,—,—,—,—
+B1 Single RF,0.975,0.9297,0.9917,0.1721,0.2637,0.9816
+B2 Single XGBoost,0.9753,0.9302,0.9946,0.1644,0.0,0.9753
+B3 Ensemble (no governance),0.9805,0.944,0.9948,0.1644,0.0,0.9805
+B4 EcoTrust (ensemble + governance),0.9874,0.9644,0.9948,0.2062,0.3521,0.9874

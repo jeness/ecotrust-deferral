@@ -1,0 +1,5 @@
+scenario,accuracy,f1_score,roc_auc,mean_ensemble_std,mean_entropy,cp_coverage,escalation_rate,error_coverage,error_reduction
+S1_normal,0.9758,0.9315,0.9953,0.0121,0.0591,0.6982,0.4492,0.4432,0.0107
+S2_sensor_failure,0.9758,0.9315,0.9953,0.0121,0.0591,0.6982,0.4492,0.4432,0.0107
+S3_noisy,0.9758,0.9315,0.9955,0.0122,0.0592,0.696,0.4511,0.4659,0.0113
+S4_governance,0.9758,0.9315,0.9953,0.0121,0.0591,0.6982,0.4492,0.4432,0.0107
